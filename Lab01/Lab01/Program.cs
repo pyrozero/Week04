@@ -1,11 +1,17 @@
 ﻿using System;
-
-namespace Lab01
+public class MathTest
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        for (float i = -2; i < Math.PI * 4.F; i += 0.35F)
         {
+            Console.WriteLine("The Cos of {0,10:F} = {1,-10:F6}" +
+            spaces(Math.Tan(i)) + "*", i, Math.Tan(i));
         }
+    }
+    private static string spaces(double val)
+    {
+        string SpaceString = new String(' ', ((int)(val * 1.0)) + 10);
+        return SpaceString;
     }
 }
