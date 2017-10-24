@@ -5,8 +5,8 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            string na, ln,ids,gpa;
-          
+            string na, ln,ids;
+            double gpa;
             Console.WriteLine("\t::Input::");
             Console.Write("Please enter Name :");
             na = Console.ReadLine();
@@ -22,9 +22,11 @@ namespace Lab01
             Console.WriteLine("Name     :{0}",na);
             Console.WriteLine("Lastname :{0}",ln);
             Console.WriteLine("ID       :{0}",ids);
-            
 
-           
+            Console.WriteLine("GPA      :{0:F2}",gpa);
+
+
+
 
 
         }
