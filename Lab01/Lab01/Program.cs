@@ -5,6 +5,7 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
+            
             string na, ln,ids;
             double gpa;
             Console.WriteLine("\t::Input::");
