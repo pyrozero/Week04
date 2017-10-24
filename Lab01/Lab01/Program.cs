@@ -6,7 +6,7 @@ namespace Lab01
         static void Main(string[] args)
         {
             char ch;
-            int  gg
+            
             Console.Write("Press a key followed by ENTER:");
             ch = Console.Read();  // get a char
            
