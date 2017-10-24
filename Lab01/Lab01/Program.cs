@@ -5,18 +5,28 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Console.Write("Please enter value 1 :");
-                int val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter value 2 :");
-                int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Answer = " + (val1 + val2));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error : " + e.ToString());
-            }
+            string na, ln,ids,gpa;
+          
+            Console.WriteLine("\t::Input::");
+            Console.Write("Please enter Name :");
+            na = Console.ReadLine();
+            Console.Write("Please enter Lastname :");
+            ln = Console.ReadLine();
+            Console.Write("Your ID:");
+            ids = Console.ReadLine();
+            Console.Write("GPA :");
+            gpa = Console.ReadLine();
+
+           
+            Console.WriteLine("\t::Output:: ");
+            Console.WriteLine("Name     :{0}",na);
+            Console.WriteLine("Lastname :{0}",ln);
+            Console.WriteLine("ID       :{0}",ids);
+            
+
+           
+
+
         }
     }
 }
